@@ -42,19 +42,16 @@ Callback yang diamati melalui Logcat meliputi:
 
 📸 Intip Gerak Dikit
 
-🧮 Halaman Kalkulator BMI
+🧮 Kalkulator BMI
+![Kalkulator BMI](screen1.jpeg)
 
-
-
-🏃 Halaman Saran Olahraga
-
-
+🏃 Saran Olahraga
+![Saran Olahraga](screen2.jpeg)
 
 🔄 Activity Lifecycle
+![Logcat Lifecycle](lifecycle-log.jpeg)
 
-
-
-## 🚀 Cara Menjalankan
+🚀 Cara Menjalankan
 
 1. Clone repository ini ke laptop.
 2. Buka folder proyek di Android Studio.
