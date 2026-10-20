@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+
+        <ImageView
+            android:layout_width="72dp" android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="Ikon bola" android:src="@drawable/ic_ball" />
+
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:gravity="center"
+            android:text="@string/second_title" android:textColor="@color/accent_green"
+            android:textSize="18sp" android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvOwner"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:gravity="center" android:text="@string/second_sub"
+            android:textColor="@color/text_muted" android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" android:background="@drawable/bg_card"
+            android:gravity="center" android:orientation="vertical" android:padding="18dp">
+            <TextView
+                android:id="@+id/tvStatReps"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="0" android:textColor="@color/accent_orange"
+                android:textSize="32sp" android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Total Push-up Sesi Ini" android:textColor="@color/text_muted"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:background="@drawable/bg_card"
+            android:gravity="center" android:orientation="vertical" android:padding="18dp">
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="5 km" android:textColor="@color/accent_green"
+                android:textSize="32sp" android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Target Lari Mingguan" android:textColor="@color/text_muted"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:background="@drawable/bg_card"
+            android:orientation="vertical" android:padding="18dp">
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="SKILL SET ATLET" android:textColor="@color/text_muted"
+                android:textSize="10sp" android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" android:lineSpacingExtra="6dp"
+                android:text="• Daya tahan (endurance)\n• Kekuatan otot inti (core)\n• Pacing &amp; manajemen napas\n• Kedisiplinan latihan rutin\n• Pemulihan &amp; stretching"
+                android:textColor="@color/text_main" android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" android:backgroundTint="@color/accent_green"
+            android:text="@string/btn_back" android:textColor="@color/bg_dark" />
+    </LinearLayout>
+</ScrollView>

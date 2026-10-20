@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_dark" android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:gravity="center" android:text="@string/header_main"
+            android:textColor="@color/accent_green" android:textSize="12sp"
+            android:textStyle="bold" android:letterSpacing="0.1" />
+
+        <!-- Kartu profil -->
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:background="@drawable/bg_card"
+            android:gravity="center_horizontal" android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/ivAvatar"
+                android:layout_width="96dp" android:layout_height="96dp"
+                android:contentDescription="Foto profil atlet"
+                android:src="@drawable/ic_ball" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" android:text="@string/default_name"
+                android:textColor="@color/text_main" android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSport"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/default_sport"
+                android:textColor="@color/accent_green" android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" android:gravity="center"
+                android:text="@string/bio" android:textColor="@color/text_muted"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvReps"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="💪 Push-up: 0" android:textColor="@color/accent_orange"
+                    android:textSize="12sp" android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tvLevel"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="🔥 Level: 1" android:textColor="@color/accent_green"
+                    android:textSize="12sp" android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvState"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" android:text="State: -"
+                android:textColor="@color/text_muted" android:textSize="11sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="14dp" android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnPushUp"
+                    android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp" android:layout_weight="1"
+                    android:backgroundTint="@color/accent_green"
+                    android:text="@string/btn_pushup" android:textColor="@color/bg_dark" />
+                <Button
+                    android:id="@+id/btnRest"
+                    android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp" android:layout_weight="1"
+                    android:backgroundTint="@color/accent_orange"
+                    android:text="@string/btn_rest" android:textColor="@color/bg_dark" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Form input -->
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:background="@drawable/bg_card"
+            android:orientation="vertical" android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/form_title" android:textColor="@color/text_muted"
+                android:textSize="10sp" android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent" android:layout_height="48dp"
+                android:layout_marginTop="10dp" android:background="@drawable/bg_field"
+                android:hint="@string/hint_name" android:inputType="textPersonName"
+                android:paddingHorizontal="12dp" android:textColor="@color/text_main"
+                android:textColorHint="@color/text_muted" android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etSport"
+                android:layout_width="match_parent" android:layout_height="48dp"
+                android:layout_marginTop="10dp" android:background="@drawable/bg_field"
+                android:hint="@string/hint_sport" android:inputType="text"
+                android:paddingHorizontal="12dp" android:textColor="@color/text_main"
+                android:textColorHint="@color/text_muted" android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnReset"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp" android:layout_weight="1"
+                android:backgroundTint="@color/accent_orange"
+                android:text="@string/btn_reset" android:textColor="@color/bg_dark" />
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_marginStart="6dp" android:layout_weight="1"
+                android:backgroundTint="@color/accent_green"
+                android:text="@string/btn_save" android:textColor="@color/bg_dark" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnPortfolio"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" android:backgroundTint="@color/field_dark"
+            android:text="@string/btn_portfolio" android:textColor="@color/text_main" />
+    </LinearLayout>
+</ScrollView>

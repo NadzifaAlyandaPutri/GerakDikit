@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LifecycleDemo</string>
+    <string name="header_main">● LAB PERTEMUAN 4 · KARTU ATLET</string>
+    <string name="default_name">Tata</string>
+    <string name="default_sport">Lari &amp; Fitness</string>
+    <string name="bio">Latihan hari ini jangan skip, badan sehat otak jalan! 🏃‍♀️</string>
+    <string name="btn_pushup">💪 Push-up</string>
+    <string name="btn_rest">😮‍💨 Istirahat</string>
+    <string name="form_title">EDIT DATA ATLET</string>
+    <string name="hint_name">Nama atlet</string>
+    <string name="hint_sport">Cabang olahraga</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_save">Simpan Profil</string>
+    <string name="btn_portfolio">Lihat Portofolio →</string>
+    <string name="second_title">⚡ STATISTIK &amp; PORTOFOLIO</string>
+    <string name="second_sub">Capaian latihan &amp; skill set atlet</string>
+    <string name="btn_back">← Kembali</string>
+</resources>
