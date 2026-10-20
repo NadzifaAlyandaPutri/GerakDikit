@@ -40,16 +40,29 @@ Callback yang diamati melalui Logcat meliputi:
 - `onRestart()`
 - `onSaveInstanceState()`
 
-📸 Dokumentasi
+📸 Intip Gerak Dikit
 
-Tambahkan screenshot terbaru dari aplikasi Gerak Dikit dan bukti Logcat Activity Lifecycle pada bagian ini.
+🧮 Halaman Kalkulator BMI
 
-🚀 Cara Menjalankan
-1.Clone repository ini.
-2.Buka proyeknya di Android Studio.
-3.Tunggu Gradle Sync sampai selesai.
-4.Hubungkan HP atau buka emulator.
-Klik Run ▶ dan cobain Gerak Dikit!
+
+
+🏃 Halaman Saran Olahraga
+
+
+
+🔄 Activity Lifecycle
+
+
+
+## 🚀 Cara Menjalankan
+
+1. Clone repository ini ke laptop.
+2. Buka folder proyek di Android Studio.
+3. Tunggu sampai Gradle Sync selesai.
+4. Hubungkan HP atau nyalakan emulator.
+5. Klik **Run ▶** dan Gerak Dikit siap dicoba!
+
+
 
 🎯 Project Goals
 
