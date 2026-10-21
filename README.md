@@ -1,80 +1,38 @@
-# 📱 Gerak Dikit
 
-### Aplikasi Kalkulator BMI dan Rekomendasi Olahraga 
+# 📱 Gerak Dikit – Aplikasi Kalkulator BMI dan Rekomendasi Olahraga
 
-Gerak Dikit adalah aplikasi Android yang membantu pengguna menghitung Body Mass Index (BMI) berdasarkan berat dan tinggi badan, kemudian menampilkan rekomendasi aktivitas olahraga.
+Gerak Dikit merupakan aplikasi berbasis Android yang membantu pengguna menghitung Body Mass Index (BMI) berdasarkan berat dan tinggi badan, serta mendapatkan rekomendasi aktivitas olahraga sesuai kategori BMI. Aplikasi ini dikembangkan menggunakan Kotlin di Android Studio dengan antarmuka yang sederhana dan mudah digunakan.
 
-### ✨ Fitur Aplikasi
+## 🧮 Fitur & Layar Aplikasi
 
-- Menghitung BMI berdasarkan berat badan dan tinggi badan.
-- Menampilkan nilai BMI beserta kategorinya.
-- Memberikan rekomendasi olahraga mingguan.
-- Menampilkan target aktivitas fisik mingguan.
-- Mempertahankan data BMI saat Activity mengalami perubahan konfigurasi melalui `onSaveInstanceState`.
+1. **Kalkulator BMI:** Menghitung nilai BMI berdasarkan berat badan dan tinggi badan pengguna.
+2. **Kategori BMI:** Menampilkan hasil perhitungan BMI beserta kategori berat badan.
+3. **Saran Olahraga:** Memberikan rekomendasi aktivitas fisik berdasarkan kategori BMI pengguna.
 
-### 🎨 Tampilan Aplikasi
+## 🛠️ Komponen UI & Teknologi
 
-1. Halaman Kalkulator BMI
-Menampilkan input berat badan, tinggi badan, hasil BMI, dan tombol untuk melihat rekomendasi olahraga.
+- **Bahasa Pemrograman:** Kotlin
+- **IDE:** Android Studio
+- **Build System:** Gradle
+- **Antarmuka:** XML Layout
+- **Komponen UI:** TextView, EditText, Button, dan CardView (sesuaikan dengan komponen yang digunakan di proyek).
 
-2. Halaman Saran Olahraga
-Menampilkan rekomendasi aktivitas fisik dan target aktivitas mingguan.
+## 🚀 Cara Menjalankan Aplikasi
 
-🛠️ Teknologi
-
-- Kotlin
-- Android SDK
-- Gradle
-- XML Layout
-
-### 🔄 Activity Lifecycle
-
-Pengujian dilakukan dengan membuka aplikasi, menekan tombol Home, dan membuka kembali aplikasi.
-
-Callback yang diamati melalui Logcat meliputi:
-
-- `onStart()`
-- `onResume()`
-- `onPause()`
-- `onStop()`
-- `onRestart()`
-- `onSaveInstanceState()`
+1. Clone atau download repository ini.
+2. Buka proyek Gerak Dikit menggunakan Android Studio.
+3. Tunggu proses Gradle Sync hingga selesai.
+4. Jalankan aplikasi melalui emulator atau perangkat Android.
 
 
-### 📱 Intip Gerak Dikit
+## 📸 Tangkapan Layar (Screenshot)
 
-<table>
-  <tr>
-    <td align="center">
-      <strong>🧮 Kalkulator BMI</strong><br>
-      <img src="screen1.jpeg" width="100%">
-    </td>
-    <td align="center">
-      <strong>🏃 Saran Olahraga</strong><br>
-      <img src="screen2.jpeg" width="100%">
-    </td>
-  </tr>
-</table>
-
- ### 🔄 Activity Lifecycle
-
-Pengujian dilakukan dengan membuka aplikasi, menekan tombol Home,
-dan membuka kembali aplikasi.
-
-![Logcat Lifecycle](lifecycle-log.jpeg)
+| 🧮 Kalkulator BMI | 🏃 Saran Olahraga |
+|:---:|:---:|
+| ![Kalkulator BMI](screen1.jpeg) | ![Saran Olahraga](screen2.jpeg) |
 
 
-### 🚀 Cara Menjalankan
-
-1. Clone repository ini ke laptop.
-2. Buka folder proyek di Android Studio.
-3. Tunggu sampai Gradle Sync selesai.
-4. Hubungkan HP atau nyalakan emulator.
-5. Klik **Run ▶** dan Gerak Dikit siap dicoba!
-
-
-
-### 🎯 Project Goals
+##  🎯 Project Goals
 
 Mempraktikkan pengembangan aplikasi Android, pembuatan antarmuka, perhitungan BMI, dan pengamatan Activity Lifecycle.
 
