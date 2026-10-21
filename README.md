@@ -40,16 +40,28 @@ Callback yang diamati melalui Logcat meliputi:
 - `onRestart()`
 - `onSaveInstanceState()`
 
-📸 Intip Gerak Dikit
 
-🧮 Kalkulator BMI
-![Kalkulator BMI](screen1.jpeg)
+📱 Intip Gerak Dikit
 
-🏃 Saran Olahraga
-![Saran Olahraga](screen2.jpeg)
+<table>
+  <tr>
+    <td align="center">
+      <strong>🧮 Kalkulator BMI</strong><br>
+      <img src="screen1.jpeg" width="100%">
+    </td>
+    <td align="center">
+      <strong>🏃 Saran Olahraga</strong><br>
+      <img src="screen2.jpeg" width="100%">
+    </td>
+  </tr>
+</table>
 
-🔄 Activity Lifecycle
-![Logcat Lifecycle](lifecycle-log.jpeg)
+ 🔄 Activity Lifecycle
+
+<p align="center">
+  <img src="lifecycle-log.jpeg" width="80%">
+</p>
+
 
 🚀 Cara Menjalankan
 
