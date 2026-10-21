@@ -1,6 +1,6 @@
 Gerak Dikit 🏋️
 
-Aplikasi Kalkulator BMI dan Rekomendasi Olahraga — Pemrograman Mobile
+Aplikasi Kalkulator BMI dan Rekomendasi Olahraga 
 
 Gerak Dikit adalah aplikasi Android yang membantu pengguna menghitung Body Mass Index (BMI) berdasarkan berat dan tinggi badan, kemudian menampilkan rekomendasi aktivitas olahraga.
 
