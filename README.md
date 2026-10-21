@@ -1,10 +1,10 @@
-Gerak Dikit 🏋️
+# 📱 Gerak Dikit
 
-Aplikasi Kalkulator BMI dan Rekomendasi Olahraga 
+### Aplikasi Kalkulator BMI dan Rekomendasi Olahraga 
 
 Gerak Dikit adalah aplikasi Android yang membantu pengguna menghitung Body Mass Index (BMI) berdasarkan berat dan tinggi badan, kemudian menampilkan rekomendasi aktivitas olahraga.
 
-✨ Fitur Aplikasi
+### ✨ Fitur Aplikasi
 
 - Menghitung BMI berdasarkan berat badan dan tinggi badan.
 - Menampilkan nilai BMI beserta kategorinya.
@@ -12,7 +12,7 @@ Gerak Dikit adalah aplikasi Android yang membantu pengguna menghitung Body Mass 
 - Menampilkan target aktivitas fisik mingguan.
 - Mempertahankan data BMI saat Activity mengalami perubahan konfigurasi melalui `onSaveInstanceState`.
 
-🎨 Tampilan Aplikasi
+### 🎨 Tampilan Aplikasi
 
 1. Halaman Kalkulator BMI
 Menampilkan input berat badan, tinggi badan, hasil BMI, dan tombol untuk melihat rekomendasi olahraga.
@@ -27,7 +27,7 @@ Menampilkan rekomendasi aktivitas fisik dan target aktivitas mingguan.
 - Gradle
 - XML Layout
 
-🔄 Activity Lifecycle
+### 🔄 Activity Lifecycle
 
 Pengujian dilakukan dengan membuka aplikasi, menekan tombol Home, dan membuka kembali aplikasi.
 
@@ -41,7 +41,7 @@ Callback yang diamati melalui Logcat meliputi:
 - `onSaveInstanceState()`
 
 
-📱 Intip Gerak Dikit
+### 📱 Intip Gerak Dikit
 
 <table>
   <tr>
@@ -56,14 +56,15 @@ Callback yang diamati melalui Logcat meliputi:
   </tr>
 </table>
 
- 🔄 Activity Lifecycle
+ ### 🔄 Activity Lifecycle
 
-<p align="center">
-  <img src="lifecycle-log.jpeg" width="80%">
-</p>
+Pengujian dilakukan dengan membuka aplikasi, menekan tombol Home,
+dan membuka kembali aplikasi.
+
+![Logcat Lifecycle](lifecycle-log.jpeg)
 
 
-🚀 Cara Menjalankan
+### 🚀 Cara Menjalankan
 
 1. Clone repository ini ke laptop.
 2. Buka folder proyek di Android Studio.
@@ -73,7 +74,7 @@ Callback yang diamati melalui Logcat meliputi:
 
 
 
-🎯 Project Goals
+### 🎯 Project Goals
 
 Mempraktikkan pengembangan aplikasi Android, pembuatan antarmuka, perhitungan BMI, dan pengamatan Activity Lifecycle.
 
